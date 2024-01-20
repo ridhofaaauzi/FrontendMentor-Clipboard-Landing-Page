@@ -1,0 +1,599 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .hero {
+  width: 100%;
+  height: auto;
+}
+
+.container .hero .hero-image {
+  position: relative;
+  width: 100%;
+}
+
+.container .hero .hero-image img {
+  width: 100%;
+  position: absolute;
+}
+
+.container .hero .hero-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 70vh;
+}
+
+.container .hero .hero-logo .hero-title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container .hero .hero-logo .hero-title h1 {
+  font-size: 42px;
+  color: hsl(210, 10%, 33%);
+}
+
+.container .hero .hero-logo .hero-description {
+  width: 40%;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.container .hero .hero-logo .hero-description p {
+  color: hsl(201, 11%, 66%);
+}
+
+.container .hero .hero-logo .hero-description .hero-btn {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 2rem;
+}
+
+.container .hero .hero-logo .hero-description .hero-btn button:nth-child(1) {
+  width: 30%;
+  border: none;
+  background-color: hsl(171, 66%, 44%);
+  padding: 1rem;
+  font-size: 18px;
+  color: white;
+  border-radius: 25px;
+}
+
+.container .hero .hero-logo .hero-description .hero-btn button:nth-child(2) {
+  width: 30%;
+  border: none;
+  background-color: hsl(233, 100%, 69%);
+  padding: 1rem;
+  font-size: 18px;
+  color: white;
+  border-radius: 25px;
+}
+
+.container
+  .hero
+  .hero-logo
+  .hero-description
+  .hero-btn
+  button:nth-child(1):hover {
+  cursor: pointer;
+  background: hsl(171, 66%, 44%);
+  opacity: 50%;
+}
+
+.container
+  .hero
+  .hero-logo
+  .hero-description
+  .hero-btn
+  button:nth-child(2):hover {
+  cursor: pointer;
+  background: hsl(233, 100%, 69%);
+  opacity: 50%;
+}
+
+.container .features {
+  margin-top: 3rem;
+  line-height: 2rem;
+}
+
+.container .features .features-text {
+  width: 100%;
+  height: auto;
+  line-height: 2.5rem;
+}
+
+.container .features .features-text .features-title h2 {
+  font-size: 32px;
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1rem;
+}
+
+.container .features .features-text .features-description {
+  text-align: center;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.container .features .features-main {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.container .features .features-main .features-image img {
+  width: 100%;
+}
+
+.container .features .features-main .features-highlight .features-Search {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.container .features .features-main .features-highlight .features-Search h3 {
+  font-size: 24px;
+  color: hsl(210, 10%, 33%);
+}
+
+.container .features .features-main .features-highlight .features-Search span {
+  font-size: 18pxpx;
+  color: hsl(201, 11%, 66%);
+}
+
+.container .features .features-main .features-highlight .features-Cloud {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.container .features .features-main .features-highlight .features-Cloud h3 {
+  font-size: 24px;
+  color: hsl(210, 10%, 33%);
+}
+
+.container .features .features-main .features-highlight .features-Cloud span {
+  font-size: 18pxpx;
+  color: hsl(201, 11%, 66%);
+}
+
+.container .features .features-main .features-highlight .features-History {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.container .features .features-main .features-highlight .features-History h3 {
+  font-size: 24px;
+  color: hsl(210, 10%, 33%);
+}
+
+.container .features .features-main .features-highlight .features-History span {
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+}
+
+.container .clipboard {
+  margin-top: 3rem;
+}
+
+.container .clipboard .clipboard-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container .clipboard .clipboard-title h2 {
+  color: hsl(210, 10%, 33%);
+  font-size: 32px;
+}
+
+.container .clipboard .clipboard-description {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container .clipboard .clipboard-description span {
+  color: hsl(201, 11%, 66%);
+  font-size: 18px;
+}
+
+.container .clipboard .clipboard-image {
+  margin-top: 5rem;
+}
+
+.workflow .workflow-title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.workflow .workflow-title h2 {
+  font-size: 32px;
+  color: hsl(210, 10%, 33%);
+}
+
+.workflow .workflow-description {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.workflow .workflow-description span {
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+}
+
+.workflow .workflow-list {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 60px;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.workflow .workflow-list .workflow-blacklists {
+  text-align: center;
+}
+
+.workflow .workflow-list .workflow-blacklists img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.workflow .workflow-list .workflow-blacklists h4 {
+  font-size: 24px;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1rem;
+}
+
+.workflow .workflow-list .workflow-blacklists span {
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 1rem;
+}
+
+.workflow .workflow-list .workflow-snippets {
+  text-align: center;
+}
+
+.workflow .workflow-list .workflow-snippets img {
+  width: 50px;
+  margin-bottom: 1rem;
+}
+
+.workflow .workflow-list .workflow-snippets h4 {
+  font-size: 24px;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1rem;
+}
+
+.workflow .workflow-list .workflow-snippets span {
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 1rem;
+}
+
+.workflow .workflow-list .workflow-preview {
+  text-align: center;
+}
+
+.workflow .workflow-list .workflow-preview img {
+  width: 50px;
+  margin-bottom: 2rem;
+}
+
+.workflow .workflow-list .workflow-preview h4 {
+  font-size: 24px;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1rem;
+}
+
+.workflow .workflow-list .workflow-preview span {
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 1rem;
+}
+
+.workflow .company-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+.download-list {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.download-list .download-title {
+  margin-bottom: 2rem;
+}
+
+.download-list .download-title h2 {
+  font-size: 32px;
+  color: hsl(210, 10%, 33%);
+}
+
+.download-list .download-description {
+  margin-bottom: 2rem;
+}
+
+.download-list .download-description p {
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+}
+
+.download-list .download-description .download-btn {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.download-list .download-description .download-btn button:nth-child(1) {
+  width: 30%;
+  border: none;
+  background-color: hsl(171, 66%, 44%);
+  padding: 1rem;
+  font-size: 18px;
+  color: white;
+  border-radius: 25px;
+}
+
+.download-list .download-description .download-btn button:nth-child(2) {
+  width: 30%;
+  border: none;
+  background-color: hsl(233, 100%, 69%);
+  padding: 1rem;
+  font-size: 18px;
+  color: white;
+  border-radius: 25px;
+}
+
+.download-list .download-description .download-btn button:nth-child(1):hover {
+  cursor: pointer;
+  background: hsl(171, 66%, 44%);
+  opacity: 50%;
+}
+
+.download-list .download-description .download-btn button:nth-child(2):hover {
+  cursor: pointer;
+  background: hsl(233, 100%, 69%);
+  opacity: 50%;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: hsl(201, 11%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  gap: 850px;
+  margin-top: 10rem;
+}
+
+.footer .footer-image {
+  display: flex;
+  gap: 160px;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.footer .footer-image img {
+  width: 70px;
+  height: 70px;
+}
+
+.footer .footer-image .footer-list ul:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-top: 1.5rem;
+  list-style: none;
+  color: hsl(210, 10%, 33%);
+}
+
+.footer .footer-image .footer-list ul:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 1.5rem;
+  list-style: none;
+  color: hsl(210, 10%, 33%);
+}
+
+.footer .footer-image .footer-list li:hover {
+  color: hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+
+.footer .footer-social {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer .footer-social .social-facebook {
+  width: 50px;
+  height: 50px;
+}
+
+.footer .footer-social .social-facebook:hover {
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.footer .footer-social .social-twitter {
+  width: 50px;
+  height: 50px;
+}
+
+.footer .footer-social .social-twitter:hover {
+  color: #1da1f2;
+  cursor: pointer;
+}
+
+.footer .footer-social .social-instagram {
+  width: 50px;
+  height: 50px;
+}
+
+.footer .footer-social .social-instagram:hover {
+  color: #e11d74;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .container .hero .hero-logo .hero-description .hero-btn button:nth-child(1) {
+    width: 100%;
+  }
+
+  .container .hero .hero-logo .hero-description .hero-btn button:nth-child(2) {
+    width: 100%;
+  }
+
+  .workflow .workflow-list {
+    flex-direction: column;
+  }
+
+  .workflow .company-list {
+    flex-direction: column;
+  }
+
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .footer .footer-image {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer .footer-image .footer-list ul:nth-child(1) {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer .footer-image .footer-list ul:nth-child(2) {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container .hero .hero-logo {
+    padding: 1rem;
+  }
+
+  .container .hero .hero-image img {
+    width: 100%;
+  }
+
+  .container .hero .hero-logo .hero-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .hero .hero-logo .hero-description p {
+    color: hsl(201, 11%, 66%);
+  }
+
+  .container .hero .hero-logo .hero-description .hero-btn {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 2rem;
+  }
+
+  .container .hero .hero-logo .hero-description .hero-btn button:nth-child(1) {
+    width: 100%;
+  }
+
+  .container .hero .hero-logo .hero-description .hero-btn button:nth-child(2) {
+    width: 100%;
+  }
+
+  .container .features {
+    padding: 1rem;
+  }
+
+  .container .features .features-main {
+    flex-direction: column;
+    text-align: center;
+    gap: 100px;
+  }
+
+  .container .clipboard {
+    padding: 1rem;
+  }
+
+  .container .clipboard .clipboard-image img {
+    width: 100%;
+  }
+
+  .download-list .download-description .download-btn {
+    flex-direction: column;
+  }
+
+  .download-list {
+    padding: 1rem;
+  }
+
+  .download-list .download-description .download-btn button:nth-child(1) {
+    width: 100%;
+  }
+
+  .download-list .download-description .download-btn button:nth-child(2) {
+    width: 100%;
+  }
+
+  .footer .footer-social .social-facebook {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer .footer-social .social-twitter {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer .footer-social .social-instagram {
+    width: 35px;
+    height: 35px;
+  }
+}
